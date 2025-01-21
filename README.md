@@ -16,7 +16,7 @@ A fun collection of 3 interactive mini-games built with React! Test your luck, s
 ## Demo
 
 You can play the mini-games directly on the live page:  
-[Play Mini-Games](https://your-username.github.io/mini-games)
+[Play Mini-Games](https://minigames-page.vercel.app/pages/numberguessing)
 
 ## Features
 - Clean, modern design with vibrant gradient backgrounds.
