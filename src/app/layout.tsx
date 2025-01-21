@@ -32,7 +32,7 @@ export default function RootLayout({
         <div className="relative flex flex-col items-center justify-center min-h-screen bg-cover bg-center">
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div className="z-10 grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+          <div className="z-10 grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
               <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg">
                 <h1 className="text-3xl font-bold mb-8 text-center text-gray-800">
@@ -64,8 +64,8 @@ export default function RootLayout({
                     </Link>
                   </li>
                 </ul>
-                <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white">
-                  <div className="mt-8 p-6 rounded-lg shadow-md">
+                <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white h-[450px] rounded-lg shadow-md">
+                  <div className="mt-8 p-6 flex flex-col items-center justify-center h-full">
                     {children}
                   </div>
                 </div>
