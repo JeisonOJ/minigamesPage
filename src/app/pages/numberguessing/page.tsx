@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from 'react'
-export function NumberGuessingGame() {
+export default function NumberGuessingGame() {
 const [targetNumber, setTargetNumber] = useState(0)
   const [guess, setGuess] = useState('')
   const [message, setMessage] = useState('Guess a number between 1 and 100')

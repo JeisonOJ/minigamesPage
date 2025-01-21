@@ -5,7 +5,7 @@ import { useState } from 'react'
 const choices = ['Rock', 'Paper', 'Scissors'] as const
 type Choice = typeof choices[number]
 
-export function RockPaperScissors() {
+export default function RockPaperScissors() {
   const [playerChoice, setPlayerChoice] = useState<Choice | null>(null)
   const [computerChoice, setComputerChoice] = useState<Choice | null>(null)
   const [result, setResult] = useState('')
