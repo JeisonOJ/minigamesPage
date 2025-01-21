@@ -36,26 +36,38 @@ export default function RootLayout({
             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
               <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg">
                 <h1 className="text-3xl font-bold mb-8 text-center text-gray-800">
-                🎮 Mini Games Collection
+                  🎮 Mini Games Collection
                 </h1>
                 <ul className="flex gap-4 flex-wrap justify-center">
                   <li>
-                    <Link className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition" href="/pages/coinflip">Coin Flip Game</Link>
+                    <Link
+                      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+                      href="/pages/coinflip"
+                    >
+                      Coin Flip Game
+                    </Link>
                   </li>
                   <li>
-                    <Link className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition" href="/pages/numberguessing">
+                    <Link
+                      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+                      href="/pages/numberguessing"
+                    >
                       Number Guessing Game
                     </Link>
                   </li>
                   <li>
-                    <Link className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition" href="/pages/rockpaperscissors">
+                    <Link
+                      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+                      href="/pages/rockpaperscissors"
+                    >
                       Rock Paper Scissors Game
                     </Link>
                   </li>
                 </ul>
-                <div className="mt-8">
-
-                {children}
+                <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white">
+                  <div className="mt-8 p-6 rounded-lg shadow-md">
+                    {children}
+                  </div>
                 </div>
               </div>
             </main>
