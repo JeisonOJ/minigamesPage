@@ -2,13 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
+body {
   height: 100vh;
 }
+
+.backgroundImage {
+  background-image: url("/futuristicanime.webp");
+}
+
+.shadowWhite {
+  text-shadow: 0 0 5px white, 0 0 10px white;
+}
+
