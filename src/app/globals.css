@@ -16,6 +16,10 @@ body {
   background-image: url("/futuristicanime.webp");
 }
 
+.backgroundPosition{
+  background-position: 75% 40%;
+}
+
 .shadowWhite {
   text-shadow: 0 0 5px white, 0 0 10px white;
 }
