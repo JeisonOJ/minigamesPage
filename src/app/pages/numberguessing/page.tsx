@@ -48,7 +48,7 @@ const [targetNumber, setTargetNumber] = useState(0)
             value={guess}
             onChange={(e) => setGuess(e.target.value)}
             placeholder="Enter your guess"
-            className="w-full p-2 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-2 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none appearance-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
           />
           <button
             type="submit"
