@@ -30,7 +30,7 @@ export default function RockPaperScissors() {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="bg-white text-gray-900 p-8 rounded-lg shadow-lg w-96 space-y-6">
+      <div className="bg-white text-gray-900 p-8 rounded-lg shadow-lg space-y-6">
         <h1 className="text-3xl font-extrabold text-center">Rock Paper Scissors</h1>
         <div className="flex justify-around">
           {choices.map((choice) => (

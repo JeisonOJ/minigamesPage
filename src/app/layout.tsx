@@ -32,9 +32,9 @@ export default function RootLayout({
         <div className="relative flex flex-col items-center justify-center min-h-screen bg-cover bg-center">
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div className="z-10 grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+          <div className="z-10 grid grid-rows-[20px_1fr_20px] items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-              <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg">
+              <div className="bg-white rounded-lg shadow-md w-full max-w-lg p-7">
                 <h1 className="text-3xl font-bold mb-8 text-center text-gray-800">
                   🎮 Mini Games Collection
                 </h1>

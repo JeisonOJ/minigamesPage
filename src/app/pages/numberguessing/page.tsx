@@ -40,7 +40,7 @@ const [targetNumber, setTargetNumber] = useState(0)
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="bg-white text-gray-900 rounded-lg shadow-lg p-8 text-center w-96 space-y-6">
+      <div className="bg-white text-gray-900 rounded-lg shadow-lg p-8 text-center space-y-6">
         <h1 className="text-3xl font-extrabold">Number Guessing Game</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
