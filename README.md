@@ -28,7 +28,7 @@ You can play the mini-games directly on the live page:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/JeisonOJ/mini-games.git
+   git clone https://github.com/JeisonOJ/minigamesPage.git
    ```
 2. Navigate into the project directory:
 
